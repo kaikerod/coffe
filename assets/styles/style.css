@@ -1,0 +1,34 @@
+@charset "UTF-8";
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+
+html {
+    background-color: #C89672;
+}
+
+main {
+    background-color: #fff;
+    width: 400px;
+    height: 450px;
+    border-radius: 30px;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.479);
+}
+
+main .img {
+    align-items: center;
+}
+
+main > h1 {
+    padding-left: 15px;
+    font-size: bold;
+    font-size: 2em;
+}
+
+main > p {
+    padding: 15px;
+}
