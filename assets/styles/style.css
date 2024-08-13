@@ -12,14 +12,20 @@ html {
 }
 
 main {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     background-color: #fff;
-    width: 400px;
-    height: 450px;
-    border-radius: 30px;
+    width: 450px;
+    height: 550px;
+    border-radius: 35px;
     box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.479);
 }
 
-main .img {
+.img {
+    display: flex;
+    justify-content: center;
     align-items: center;
 }
 
@@ -31,4 +37,56 @@ main > h1 {
 
 main > p {
     padding: 15px;
+}
+
+nav > p {
+    
+    padding-left: 15px;
+}
+
+nav > ul {
+    display: flex;
+    width: fit-content;
+    align-items: center;
+    gap: 0.6rem;
+}
+
+nav > ul > li {
+    min-width: fit-content;
+    height: fit-content;
+    font-size: small;
+    cursor: pointer;
+    list-style: none;
+}
+
+nav .sugar {
+    background-color: #EEEEEE;
+    border-radius: 5px;
+    width: 40px;
+    height: 20px;
+    box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.473);
+}
+
+nav .vanilla-aroma {
+    background-color: #D4FFCC;
+    border-radius: 5px;
+    width: 40px;
+    height: 20px;
+    box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.473);
+}
+
+nav .cherry-jam {
+    background-color: #FFA1A1;
+    border-radius: 5px;
+    width: 40px;
+    height: 20px;
+    box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.473);
+}
+
+nav .cinnamon {
+    background-color: #ECD6A4;
+    border-radius: 5px;
+    width: 40px;
+    height: 20px;
+    box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.473);
 }
